@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Short+Stack');
+
+ 
+body {
+}
+
+.solved {
+	background-color: #cfc;
+	color: green;
+	transition: 2s;
+}
+
+.solved #puzzle .filled {
+	color: green;
+	transition: 2s;
+}
+
+table, div {
+	margin: 32pt auto;
+}
+
+#puzzle {
+	font-family: sans-serif;
+	font-size: 32pt;
+}
+
+#puzzle td {
+	padding: 0.2em 0.5em;
+	text-align: right;
+}
+
+#puzzle span {
+	display: inline-block;
+	width: 32pt;
+	height: 32pt;
+	margin: 0pt -4pt;
+	padding: 0pt 4pt 8pt 4pt;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+
+#puzzle .filled {
+    font-family: 'Short Stack', cursive;
+	color: blue;
+}
+
+#control {
+	display: table;
+}
