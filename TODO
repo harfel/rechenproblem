@@ -1,8 +1,8 @@
-- sensible set of default puzzles
 - are you sure buttons
-- legend
-- tablet version
+- no-keyboard version
+- no-mouse version 
 - save puzzle state
+- offline mode (avoid jquery!)
 - undo
-- online-generation of puzzles
+- in-site generation of puzzles
 ? server-side puzzle management to track hardness
