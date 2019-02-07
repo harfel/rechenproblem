@@ -1,0 +1,8 @@
+- are you sure buttons
+- no-keyboard version
+- no-mouse version 
+- save puzzle state
+- offline mode (avoid jquery!)
+- undo
+- in-site generation of puzzles
+? server-side puzzle management to track hardness

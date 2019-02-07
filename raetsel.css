@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Short+Stack');
+
+ 
+body {
+}
+
+.solved {
+	background-color: #cfc;
+	color: green;
+	transition: 2s;
+}
+
+.solved * {
+	border-color: green;
+	transition: 2s;
+}
+
+.solved .filled {
+	color: green;
+	transition: 2s;
+}
+
+body > * {
+	display: table;
+	margin: 32pt auto;
+}
+
+#puzzle {
+	font-family: sans-serif;
+	font-size: 32pt;
+}
+
+#puzzle td {
+	padding: 0.2em 0.5em;
+	text-align: right;
+}
+
+#puzzle span {
+	display: inline-block;
+	width: 32pt;
+	height: 32pt;
+	margin: 0pt -4pt;
+	padding: 0pt 4pt 8pt 4pt;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.filled {
+    font-family: 'Short Stack', cursive;
+	color: blue;
+}
+
+button {
+	margin: 0px 1em;
+	border: 2px solid black;
+	border-radius: 30pt;
+	padding: 0.5em 2em;
+	color: inherit;
+	background-color: inherit;
+}
+
+button:hover {
+	background-color: #eee;
+}
+
+.solved button:hover {
+	background-color: white;
+}

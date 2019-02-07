@@ -1,0 +1,61 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+   	<title>Rechenproblem</title>
+	<link rel="stylesheet" href="raetsel.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="raetsel.js"></script>
+</head>
+<body>
+
+<p id="instructions">
+	Click on the letters and assign a unique number to each of them,
+	so that the calculations in all rows and columns are correct.
+</p>
+
+<table id="puzzle">
+	<tr>
+		<td id="num1"><span></span><span></span><span></span></td>
+		<td id="op1"></td>
+		<td id="num2"><span></span><span></span><span></span></td>
+		<td>=</td>
+		<td id="num3"><span></span><span></span><span></span></td>
+	</tr>
+	<tr>
+		<td id="op4"></td>
+		<td></td>
+		<td id="op5"></td>
+		<td></td>
+		<td id="op6"></td>
+	</tr>
+	<tr>
+		<td id="num4"><span></span><span></span><span></span></td>
+		<td id="op2"></td>
+		<td id="num5"><span></span><span></span><span></span></td>
+		<td>=</td>
+		<td id="num6"><span></span><span></span><span></span></td>
+	</tr>
+	<tr>
+		<td>=</td>
+		<td></td>
+		<td>=</td>
+		<td></td>
+		<td>=</td>
+	</tr>
+	<tr>
+		<td id="num7"><span></span><span></span><span></span></td>
+		<td id="op3"></td>
+		<td id="num8"><span></span><span></span><span></span></td>
+		<td>=</td>
+		<td id="num9"><span></span><span></span><span></span></td>
+	</tr>
+</table>
+
+<div id="control">
+	<button type="button" id="reset_puzzle">reset puzzle</button>
+	<button type="button" id="new_puzzle">new puzzle</button>
+</div>
+
+</body>
+</html>
