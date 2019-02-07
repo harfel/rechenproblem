@@ -10,12 +10,18 @@ body {
 	transition: 2s;
 }
 
-.solved #puzzle .filled {
+.solved * {
+	border-color: green;
+	transition: 2s;
+}
+
+.solved .filled {
 	color: green;
 	transition: 2s;
 }
 
-table, div {
+body > * {
+	display: table;
 	margin: 32pt auto;
 }
 
@@ -40,11 +46,24 @@ table, div {
 	cursor: pointer;
 }
 
-#puzzle .filled {
+.filled {
     font-family: 'Short Stack', cursive;
 	color: blue;
 }
 
-#control {
-	display: table;
+button {
+	margin: 0px 1em;
+	border: 2px solid black;
+	border-radius: 30pt;
+	padding: 0.5em 2em;
+	color: inherit;
+	background-color: inherit;
+}
+
+button:hover {
+	background-color: #eee;
+}
+
+.solved button:hover {
+	background-color: white;
 }
